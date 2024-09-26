@@ -15,4 +15,3 @@ $(TARGET): $(OBJS) #Génére l'exécutable
 
 clean: #Règle de nettoyage des fichiers générés
 	rm -f $(OBJS) $(TARGET)
-# "C:\ProgramData\chocolatey\bin\make.exe"  -  Powershell ne connait pas le chemin lors de l'instruction make sur VSCODE donc le chemin doit être indiqué lors de la commande
